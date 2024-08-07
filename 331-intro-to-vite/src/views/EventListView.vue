@@ -37,7 +37,6 @@ const hasNextPage = computed(() => {
   <!--new element-->
   <div class="events">
     <EventCard v-for="event in events" :key="event.id" :event="event"></EventCard>
-    <EventInfo v-for="event in events" :key="event.id" :event="event"></EventInfo>
     <div class="pagination">
       <RouterLink
         :to="{ name: 'event-list-view', query: { page: page - 1 } }"
