@@ -1,12 +1,12 @@
 // import './assets/main.css'
 
-import './assets/style.css'
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+import './assets/style.css';
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
 
-import App from './App.vue'
-import 'nProgress/nprogress.css'
-import router from './router'
+import App from './App.vue';
+import 'nprogress/nprogress.css';
+import router from './router';
 
 const app = createApp(App)
 
