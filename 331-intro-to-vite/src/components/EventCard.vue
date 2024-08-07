@@ -16,18 +16,3 @@ defineProps<{
     </div>
 </RouterLink>
 </template>
-
-<style scoped>
-.event-card {
-  padding: 20px;
-  width: 250px;
-  cursor: pointer;
-  border: 1px solid #39495c;
-  margin-bottom: 18px;
-}
-
-.event-link {
-  color: #2c3e50;
-  text-decoration: none;
-}
-</style>

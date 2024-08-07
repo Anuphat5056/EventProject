@@ -23,5 +23,5 @@ const register = () => {
 </script>
 
 <template>
-    <button @click="register">Register</button>
+    <button @click="register" class="bg-gray-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">Register</button>
 </template>

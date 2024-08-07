@@ -16,7 +16,7 @@ const { message } = storeToRefs(store)
       <div class="wrapper">
         <HelloWorld msg="You did it!" />
 
-        <nav class="py-6">
+        <nav class="py-6 text-[20px]">
           <RouterLink class="font-bold text-gray-700" :to="{ name: 'event-list-view' }">Event</RouterLink> |
           <RouterLink class="font-bold text-gray-700" :to="{ name: 'about' }">About</RouterLink> |
           <RouterLink class="font-bold text-gray-700" :to="{ name: 'student' }">student</RouterLink>
@@ -26,10 +26,3 @@ const { message } = storeToRefs(store)
   <RouterView />
   </div>
 </template>
-
-<style scoped>
-
-h2 {
-  font-size:20px;
-}
-</style>
